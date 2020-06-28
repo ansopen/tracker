@@ -1,1 +1,1 @@
-window.Config={SiteName:'ANSOpen Bittorrent Tracker Status',SiteUrl:'https://tracker.ansopen.org/status',ApiKeys:['m785467640-17714afbcb9a3b84fa908d1f',],ShowLink:false,CountDays:60,Navi:[]};
+window.Config={SiteName:'ANSOpen Bittorrent Tracker Status',SiteUrl:'https://tracker.ansopen.org/status',ApiKeys:['m785467640-a88fd0e5f091eb5804dd5dec',],ShowLink:false,CountDays:60,Navi:[]};
