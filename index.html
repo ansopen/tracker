@@ -4,16 +4,16 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/ansopen/tracker/favicon.ico">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/ansopen/tracker@master/favicon.ico">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ansopen/tracker/css/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ansopen/tracker@master/css/index.css">
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 <title>ANSOpen Bittorrent Tracker</title>
 </head>
 <body>
 <section class="section has-text-centered">
 <div class="container">
-<p><img class="logo" src="https://cdn.jsdelivr.net/gh/ansopen/tracker/img/logo.tracker.2200×700.tr.png"><br></p>
+<p><img class="logo" src="https://cdn.jsdelivr.net/gh/ansopen/tracker@master/img/logo.tracker.2200×700.tr.png"><br></p>
 <h1 class="title is-5">
 ANSOpen Bittorrent Tracker
 </h1> Tracker URL<br><br>
@@ -21,7 +21,7 @@ ANSOpen Bittorrent Tracker
 <input id="tracker" type="text" value="https://tracker.ansopen.org:8443/announce">
 <span class="input-group-button">
 <button class="btn" type="button" data-clipboard="" data-clipboard-target="#tracker">
-<img class="clippy" src="https://cdn.jsdelivr.net/gh/ansopen/tracker/img/clippy.svg" alt="Copy to clipboard">
+<img class="clippy" src="https://cdn.jsdelivr.net/gh/ansopen/tracker@master/img/clippy.svg" alt="Copy to clipboard">
 </button>
 </span>
 </div>
@@ -32,6 +32,6 @@ ANSOpen Bittorrent Tracker
 </section>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script>
-var clipboardS=new ClipboardJS("[data-clipboard]");clipboardS.on("success",function(e){e.clearSelection();console.info("Action:",e.action);console.info("Text:",e.text);console.info("Trigger:",e.trigger);showTooltip(e.trigger,"Copied")});clipboardS.on("error",function(e){console.error("Action:",e.action);console.error("Trigger:",e.trigger);showTooltip(e.trigger,fallbackMessage(e.action))});var btns=document.querySelectorAll(".btn");var snippets=document.querySelectorAll(".snippet");[].forEach.call(snippets,function(snippet){snippet.firstChild.insertAdjacentHTML("beforebegin",'<button class="btn" data-clipboard-snippet><img class="clippy" src="https://cdn.jsdelivr.net/gh/ansopen/tracker/img/clippy.svg" alt="Copy to clipboard"></button>')});var clipboardSnippets=new ClipboardJS("[data-clipboard-snippet]",{target:function(trigger){return trigger.nextElementSibling}});clipboardSnippets.on("success",function(e){e.clearSelection();showTooltip(e.trigger,"Copied!")});clipboardSnippets.on("error",function(e){showTooltip(e.trigger,fallbackMessage(e.action))});for(var i=0;i<btns.length;i++){btns[i].addEventListener("mouseleave",clearTooltip);btns[i].addEventListener("blur",clearTooltip)}function clearTooltip(e){e.currentTarget.setAttribute("class","btn");e.currentTarget.removeAttribute("aria-label")}function showTooltip(elem,msg){elem.setAttribute("class","btn tooltipped tooltipped-s");elem.setAttribute("aria-label",msg)};
+var clipboardS=new ClipboardJS("[data-clipboard]");clipboardS.on("success",function(e){e.clearSelection();console.info("Action:",e.action);console.info("Text:",e.text);console.info("Trigger:",e.trigger);showTooltip(e.trigger,"Copied")});clipboardS.on("error",function(e){console.error("Action:",e.action);console.error("Trigger:",e.trigger);showTooltip(e.trigger,fallbackMessage(e.action))});var btns=document.querySelectorAll(".btn");var snippets=document.querySelectorAll(".snippet");[].forEach.call(snippets,function(snippet){snippet.firstChild.insertAdjacentHTML("beforebegin",'<button class="btn" data-clipboard-snippet><img class="clippy" src="https://cdn.jsdelivr.net/gh/ansopen/tracker@master/img/clippy.svg" alt="Copy to clipboard"></button>')});var clipboardSnippets=new ClipboardJS("[data-clipboard-snippet]",{target:function(trigger){return trigger.nextElementSibling}});clipboardSnippets.on("success",function(e){e.clearSelection();showTooltip(e.trigger,"Copied!")});clipboardSnippets.on("error",function(e){showTooltip(e.trigger,fallbackMessage(e.action))});for(var i=0;i<btns.length;i++){btns[i].addEventListener("mouseleave",clearTooltip);btns[i].addEventListener("blur",clearTooltip)}function clearTooltip(e){e.currentTarget.setAttribute("class","btn");e.currentTarget.removeAttribute("aria-label")}function showTooltip(elem,msg){elem.setAttribute("class","btn tooltipped tooltipped-s");elem.setAttribute("aria-label",msg)};
 </script>
 </body></html>
