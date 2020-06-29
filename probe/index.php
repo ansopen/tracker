@@ -508,7 +508,7 @@ body {
 	</tr>
 	<tr>
 	<td><?php __('Hostname'); ?></td>
-	<td colspan="3"><?php $os = explode(' ', $uname); echo $os[1];?>(<?php echo $server_addr; ?>)&nbsp;&nbsp;
+	<td colspan="3">host&nbsp;&nbsp;
 		<button class="link" onclick="alert(navigator.userAgent)"><?php __('Client Infomation'); ?>:</button>
 		<span id="remoteip"><?php echo $remote_addr;?></span>
 		<span id="iploc"></span>
